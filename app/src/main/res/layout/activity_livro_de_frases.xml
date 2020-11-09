@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LivroDeFrases">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/backgroud" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Livro de Frases"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <TextView
+        android:id="@+id/btnHot"
+        android:layout_width="101dp"
+        android:layout_height="46dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Hotel"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557" />
+
+    <TextView
+        android:id="@+id/btnSau"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Saudações"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.868" />
+
+    <TextView
+        android:id="@+id/btnSuper"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Supermercado"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709" />
+
+    <TextView
+        android:id="@+id/btnAero"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Aeroporto"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.331"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224" />
+
+    <TextView
+        android:id="@+id/btnRes"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Restaurante"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnAero"
+        app:layout_constraintStart_toEndOf="@+id/btnAero"
+        app:layout_constraintTop_toTopOf="@+id/btnAero"
+        app:srcCompat="@drawable/aeroporto" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnRes"
+        app:layout_constraintStart_toEndOf="@+id/btnRes"
+        app:layout_constraintTop_toTopOf="@+id/btnRes"
+        app:srcCompat="@drawable/restaurante" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnHot"
+        app:layout_constraintStart_toEndOf="@+id/btnHot"
+        app:layout_constraintTop_toTopOf="@+id/btnHot"
+        app:layout_constraintVertical_bias="0.676"
+        app:srcCompat="@drawable/hotel" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="92dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSuper"
+        app:layout_constraintStart_toEndOf="@+id/btnSuper"
+        app:layout_constraintTop_toTopOf="@+id/btnSuper"
+        app:srcCompat="@drawable/supermercado" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSau"
+        app:layout_constraintStart_toEndOf="@+id/btnSau"
+        app:layout_constraintTop_toTopOf="@+id/btnSau"
+        app:layout_constraintVertical_bias="0.525"
+        app:srcCompat="@drawable/saudacao" />
+</androidx.constraintlayout.widget.ConstraintLayout>

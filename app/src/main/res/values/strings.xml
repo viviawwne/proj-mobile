@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ProjetoMobile</string>
+
+    <string name="titulo_dicas">
+        Esta sessão é para você que quer treinar suas habilidades na língua e ficar mais perto da Cultura Americana.
+        Aqui vai algumas dicas:
+    </string>
+
+    <string name="titulo_dica_um">
+           1. Mude a configuração do seu celular para o inglês:
+    </string>
+    <string name="dica_um">
+        É quase impossível ficar um dia inteiro sem o celular, né? Trocando o idioma do telefone, você poderá ter mais contato com inúmeras palavras novas no seu dia a dia. Isso inclui suas redes sociais também.
+    </string>
+
+    <string name="titulo_dica_dois">
+           2. Assista séries/filmes
+    </string>
+    <string name="dica_dois">
+        Procure assistir seriados, filmes, desenhos ou documentários em inglês com legendas em inglês. Além de ser uma forma divertida de passar o tempo, você pode aprender novas expressões (principalmente com séries de humor).
+    </string>
+
+    <string name="titulo_dica_tres">
+           3. Ouça
+    </string>
+    <string name="dica_tres">
+        Ouça podcast ou faça uma playlist com suas músicas internacionais preferidas e tente traduzi-las mentalmente.Treinar a compreensão é indispensável para desenvolver uma conversação eficaz.
+    </string>
+
+    <string name="titulo_dica_quatro">
+           4. Leia e escreva
+    </string>
+    <string name="dica_quatro">
+        Tenha o hábito de ler livros, revistas, jornais ou histórias, e de escrever frases, textos, redações e etc. Tudo isso irá ampliar seu vocabulário além de te ajudar a memorizar as palavras.
+
+    </string>
+
+    <string name="titulo_dica_cinco">
+           5. Converse
+    </string>
+    <string name="dica_cinco">
+        Fale com nativos, com amigos ou até mesmo sozinho. A troca de palavras/conhecimentos é um processo enriquecedor no aprendizado de um novo idioma.
+    </string>
+</resources>
